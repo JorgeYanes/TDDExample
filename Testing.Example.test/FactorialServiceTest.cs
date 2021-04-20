@@ -16,8 +16,11 @@ namespace Testing.Example.test
         [Fact]
         public void TestFactorialZero() 
         {
+            //Arrange
             FactorialService factorialService = new FactorialService();
+            //Act
             int result = factorialService.Calculate(0);
+            //Assert
             Assert.Equal(1,result);
         }
         /// <summary>
@@ -26,8 +29,11 @@ namespace Testing.Example.test
         [Fact]
         public void testFactorialFive() 
         {
+            //Arrange
             FactorialService factorialService = new FactorialService();
+            //Act
             int result = factorialService.Calculate(5);
+            //Assert
             Assert.Equal(120, result);
         }
     }
