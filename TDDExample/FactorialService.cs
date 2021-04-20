@@ -10,7 +10,8 @@ namespace TDDExample
     {
         public int Calculate(int number) 
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return 0;
         }
 
     }
